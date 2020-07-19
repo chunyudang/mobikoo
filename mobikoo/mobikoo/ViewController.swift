@@ -11,7 +11,6 @@ import UIKit
 class ViewController: UIViewController {
     
     //var label: UILabel?
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
@@ -36,6 +35,14 @@ class ViewController: UIViewController {
         
         
         self.view.addSubview(button)
+        //test
+        //printAndCount(string: "hello, world")
+        //printWithoutCounting(string: "hello, world")
+        if let bounds = minMax(array: [-8, -6, 2, 109, 3, 71]){
+            print("min is \(bounds.min) and max is \(bounds.max)")
+        }
+        
+        print(arithmeticMean(1,2,3,4,5))
     }
     
     //上
@@ -89,5 +96,36 @@ class ViewController: UIViewController {
         return label;
     }
     
+    
+    func printAndCount(string: String) -> Int {
+        print(string)
+        return string.count
+    }
+    
+    func printWithoutCounting(string: String){
+        let _ = printAndCount(string: string)
+    }
+    
+    func minMax(array: [Int]) -> (min: Int, max: Int)? {
+        if array.isEmpty { return nil}
+        var currentMin = array[0]
+        var currentMax = array[0]
+        for value in array {
+            if value < currentMin {
+                currentMin = value
+            } else if value > currentMax {
+                currentMax = value
+            }
+        }
+        return (currentMin, currentMax)
+    }
+    
+    func arithmeticMean(_ numbers: Double...) -> Double {
+        var total: Double = 0
+        for number in numbers {
+            total += number
+        }
+        return total/Double(numbers.count)
+    }
 }
 

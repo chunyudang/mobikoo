@@ -15,6 +15,7 @@
 		1CFC742924C2D12E00E27B3C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CFC742724C2D12E00E27B3C /* LaunchScreen.storyboard */; };
 		1CFC743424C2D12E00E27B3C /* mobikooTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CFC743324C2D12E00E27B3C /* mobikooTests.swift */; };
 		1CFC743F24C2D12E00E27B3C /* mobikooUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CFC743E24C2D12E00E27B3C /* mobikooUITests.swift */; };
+		FF19DDE75EFA4858DDD40B30 /* Pods_mobikoo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 061F12F313BEB1A5382AD1E7 /* Pods_mobikoo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		061F12F313BEB1A5382AD1E7 /* Pods_mobikoo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mobikoo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CFC741924C2D12D00E27B3C /* mobikoo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mobikoo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CFC741C24C2D12D00E27B3C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1CFC741E24C2D12D00E27B3C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +51,8 @@
 		1CFC743A24C2D12E00E27B3C /* mobikooUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mobikooUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CFC743E24C2D12E00E27B3C /* mobikooUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mobikooUITests.swift; sourceTree = "<group>"; };
 		1CFC744024C2D12E00E27B3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA01D5897A3880DB341F3C2E /* Pods-mobikoo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mobikoo.release.xcconfig"; path = "Target Support Files/Pods-mobikoo/Pods-mobikoo.release.xcconfig"; sourceTree = "<group>"; };
+		E450163287ADBF7ECB076034 /* Pods-mobikoo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mobikoo.debug.xcconfig"; path = "Target Support Files/Pods-mobikoo/Pods-mobikoo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF19DDE75EFA4858DDD40B30 /* Pods_mobikoo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +88,8 @@
 				1CFC743224C2D12E00E27B3C /* mobikooTests */,
 				1CFC743D24C2D12E00E27B3C /* mobikooUITests */,
 				1CFC741A24C2D12D00E27B3C /* Products */,
+				A66784B283B5B2E7634A478E /* Pods */,
+				5387FD6A1F72E45A87EDF4A3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -128,6 +135,24 @@
 			path = mobikooUITests;
 			sourceTree = "<group>";
 		};
+		5387FD6A1F72E45A87EDF4A3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				061F12F313BEB1A5382AD1E7 /* Pods_mobikoo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A66784B283B5B2E7634A478E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E450163287ADBF7ECB076034 /* Pods-mobikoo.debug.xcconfig */,
+				CA01D5897A3880DB341F3C2E /* Pods-mobikoo.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +160,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1CFC744324C2D12E00E27B3C /* Build configuration list for PBXNativeTarget "mobikoo" */;
 			buildPhases = (
+				150AB065FEB7A94D13CB81D4 /* [CP] Check Pods Manifest.lock */,
 				1CFC741524C2D12D00E27B3C /* Sources */,
 				1CFC741624C2D12D00E27B3C /* Frameworks */,
 				1CFC741724C2D12D00E27B3C /* Resources */,
+				001A18B1B5BED6E8F070A56A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -253,6 +280,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		001A18B1B5BED6E8F070A56A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-mobikoo/Pods-mobikoo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-mobikoo/Pods-mobikoo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-mobikoo/Pods-mobikoo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		150AB065FEB7A94D13CB81D4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-mobikoo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1CFC741524C2D12D00E27B3C /* Sources */ = {
@@ -432,6 +501,7 @@
 		};
 		1CFC744424C2D12E00E27B3C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E450163287ADBF7ECB076034 /* Pods-mobikoo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -450,6 +520,7 @@
 		};
 		1CFC744524C2D12E00E27B3C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA01D5897A3880DB341F3C2E /* Pods-mobikoo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
