@@ -20,7 +20,7 @@ target 'mobikoo' do
   pod 'RxGesture' #对view手势的封装     
   #pod 'RxDataSources', '~> 3.0'  # RxSwift中用于设置UITableView/UICollectionView data sources
 
-  #pod 'SwifterSwift' # 常用拓展
+  pod 'SwifterSwift' # 常用拓展
   pod 'ESTabBarController-swift' # TabBar
   pod 'EmptyDataSet-Swift' #  列表空数据图文展示
   pod 'SwiftyFitsize' # 字体适配
@@ -33,7 +33,7 @@ target 'mobikoo' do
   pod 'TZImagePickerController' # 相册获取图片或视频
   #pod 'FSCalendar' # 日期选择
   pod "PYSearch" # 搜索controller
-  #pod 'YPNavigationBarTransition' # NavBar
+  pod 'YPNavigationBarTransition' # NavBar
   #pod 'YYText'
   
 end
