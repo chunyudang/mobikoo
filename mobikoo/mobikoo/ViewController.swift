@@ -14,10 +14,11 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        self.view.addSubview(self.Mylabel());
+        self.view.backgroundColor = UIColor.white
+        self.view.addSubview(self.mMylabel());
         
         
-        let button:UIButton = UIButton(type: UIButton.ButtonType.contactAdd)
+        let button:UIButton = UIButton(type:.contactAdd)
         button.frame = CGRect(x:100, y:100, width:100, height:45)
         //设置按钮的背景颜色
         button.backgroundColor = UIColor.cyan
@@ -55,7 +56,7 @@ class ViewController: UIViewController {
         print("你是谁啊，其实就是一个按钮")
     }
     
-    func Mylabel() -> UILabel {
+    func mMylabel() -> UILabel {
         //创建一个文本标签并设置它的frame
         let label = UILabel(frame: CGRect(x:10, y:50, width:200, height:200))
         //设置文本标签的字体颜色为黑色

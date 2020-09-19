@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1CA6F5CD2515917A001E874A /* TestAViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA6F5CC2515917A001E874A /* TestAViewController.swift */; };
 		1CFC741D24C2D12D00E27B3C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CFC741C24C2D12D00E27B3C /* AppDelegate.swift */; };
 		1CFC741F24C2D12D00E27B3C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CFC741E24C2D12D00E27B3C /* SceneDelegate.swift */; };
 		1CFC742124C2D12D00E27B3C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CFC742024C2D12D00E27B3C /* ViewController.swift */; };
@@ -37,6 +38,7 @@
 
 /* Begin PBXFileReference section */
 		061F12F313BEB1A5382AD1E7 /* Pods_mobikoo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mobikoo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CA6F5CC2515917A001E874A /* TestAViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestAViewController.swift; sourceTree = "<group>"; };
 		1CFC741924C2D12D00E27B3C /* mobikoo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mobikoo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CFC741C24C2D12D00E27B3C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1CFC741E24C2D12D00E27B3C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -81,6 +83,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1CA6F5D12515918A001E874A /* learning */ = {
+			isa = PBXGroup;
+			children = (
+				1CA6F5CC2515917A001E874A /* TestAViewController.swift */,
+			);
+			path = learning;
+			sourceTree = "<group>";
+		};
 		1CFC741024C2D12D00E27B3C = {
 			isa = PBXGroup;
 			children = (
@@ -106,6 +116,7 @@
 		1CFC741B24C2D12D00E27B3C /* mobikoo */ = {
 			isa = PBXGroup;
 			children = (
+				1CA6F5D12515918A001E874A /* learning */,
 				1CFC741C24C2D12D00E27B3C /* AppDelegate.swift */,
 				1CFC741E24C2D12D00E27B3C /* SceneDelegate.swift */,
 				1CFC742024C2D12D00E27B3C /* ViewController.swift */,
@@ -149,7 +160,6 @@
 				E450163287ADBF7ECB076034 /* Pods-mobikoo.debug.xcconfig */,
 				CA01D5897A3880DB341F3C2E /* Pods-mobikoo.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -328,6 +338,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1CA6F5CD2515917A001E874A /* TestAViewController.swift in Sources */,
 				1CFC742124C2D12D00E27B3C /* ViewController.swift in Sources */,
 				1CFC741D24C2D12D00E27B3C /* AppDelegate.swift in Sources */,
 				1CFC741F24C2D12D00E27B3C /* SceneDelegate.swift in Sources */,
