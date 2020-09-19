@@ -14,7 +14,7 @@ target 'mobikoo' do
   pod 'Kingfisher' # SDWebImage swift 版
   pod 'IQKeyboardManagerSwift'
   pod 'SwiftyJSON'
-
+  pod 'dsBridge'    #js交互
   pod 'RxSwift'
   pod 'RxCocoa'
   pod 'RxGesture' #对view手势的封装     

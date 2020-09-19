@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		1CA6F5CD2515917A001E874A /* TestAViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA6F5CC2515917A001E874A /* TestAViewController.swift */; };
+		1CA6F6092515E0A5001E874A /* RootTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA6F6072515E0A5001E874A /* RootTabBarController.swift */; };
+		1CA6F60A2515E0A5001E874A /* RootNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA6F6082515E0A5001E874A /* RootNavigationViewController.swift */; };
+		1CA6F61C2515E871001E874A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA6F61B2515E871001E874A /* HomeViewController.swift */; };
+		1CA6F6242515E8B2001E874A /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA6F6232515E8B2001E874A /* MessageViewController.swift */; };
+		1CA6F6292515E8D9001E874A /* MineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA6F6282515E8D9001E874A /* MineViewController.swift */; };
+		1CA6F62E2515E95E001E874A /* CommunityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA6F62D2515E95E001E874A /* CommunityViewController.swift */; };
 		1CFC741D24C2D12D00E27B3C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CFC741C24C2D12D00E27B3C /* AppDelegate.swift */; };
 		1CFC741F24C2D12D00E27B3C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CFC741E24C2D12D00E27B3C /* SceneDelegate.swift */; };
 		1CFC742124C2D12D00E27B3C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CFC742024C2D12D00E27B3C /* ViewController.swift */; };
@@ -39,6 +45,12 @@
 /* Begin PBXFileReference section */
 		061F12F313BEB1A5382AD1E7 /* Pods_mobikoo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mobikoo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CA6F5CC2515917A001E874A /* TestAViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestAViewController.swift; sourceTree = "<group>"; };
+		1CA6F6072515E0A5001E874A /* RootTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootTabBarController.swift; sourceTree = "<group>"; };
+		1CA6F6082515E0A5001E874A /* RootNavigationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootNavigationViewController.swift; sourceTree = "<group>"; };
+		1CA6F61B2515E871001E874A /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		1CA6F6232515E8B2001E874A /* MessageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
+		1CA6F6282515E8D9001E874A /* MineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MineViewController.swift; sourceTree = "<group>"; };
+		1CA6F62D2515E95E001E874A /* CommunityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityViewController.swift; sourceTree = "<group>"; };
 		1CFC741924C2D12D00E27B3C /* mobikoo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mobikoo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CFC741C24C2D12D00E27B3C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1CFC741E24C2D12D00E27B3C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -91,6 +103,178 @@
 			path = learning;
 			sourceTree = "<group>";
 		};
+		1CA6F5FF2515D9D7001E874A /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				1CA6F60E2515E492001E874A /* Controller */,
+				1CA6F6102515E4AD001E874A /* Model */,
+				1CA6F60F2515E4A2001E874A /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		1CA6F6002515D9E2001E874A /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				1CA6F6172515E7CE001E874A /* Controller */,
+				1CA6F6162515E7CE001E874A /* Model */,
+				1CA6F6152515E7CE001E874A /* View */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		1CA6F6012515DA37001E874A /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				1CA6F6182515E7D8001E874A /* Controller */,
+				1CA6F6192515E7D8001E874A /* Model */,
+				1CA6F61A2515E7D8001E874A /* View */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		1CA6F6062515E044001E874A /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				1CA6F6082515E0A5001E874A /* RootNavigationViewController.swift */,
+				1CA6F6072515E0A5001E874A /* RootTabBarController.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		1CA6F60E2515E492001E874A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1CA6F61B2515E871001E874A /* HomeViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1CA6F60F2515E4A2001E874A /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1CA6F6102515E4AD001E874A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1CA6F6112515E795001E874A /* Community */ = {
+			isa = PBXGroup;
+			children = (
+				1CA6F6122515E795001E874A /* Controller */,
+				1CA6F6132515E795001E874A /* Model */,
+				1CA6F6142515E795001E874A /* View */,
+			);
+			path = Community;
+			sourceTree = "<group>";
+		};
+		1CA6F6122515E795001E874A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1CA6F62D2515E95E001E874A /* CommunityViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1CA6F6132515E795001E874A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1CA6F6142515E795001E874A /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1CA6F6152515E7CE001E874A /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1CA6F6162515E7CE001E874A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1CA6F6172515E7CE001E874A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1CA6F6282515E8D9001E874A /* MineViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1CA6F6182515E7D8001E874A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1CA6F6232515E8B2001E874A /* MessageViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1CA6F6192515E7D8001E874A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1CA6F61A2515E7D8001E874A /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1CA6F6322515E9FA001E874A /* Login */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		1CA6F6362515EB00001E874A /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		1CA6F6372515EB09001E874A /* DB */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DB;
+			sourceTree = "<group>";
+		};
+		1CA6F6392515EB9B001E874A /* Categroy */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Categroy;
+			sourceTree = "<group>";
+		};
+		1CA6F63A2515EBF6001E874A /* SDBridge */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SDBridge;
+			sourceTree = "<group>";
+		};
 		1CFC741024C2D12D00E27B3C = {
 			isa = PBXGroup;
 			children = (
@@ -116,12 +300,22 @@
 		1CFC741B24C2D12D00E27B3C /* mobikoo */ = {
 			isa = PBXGroup;
 			children = (
-				1CA6F5D12515918A001E874A /* learning */,
-				1CFC741C24C2D12D00E27B3C /* AppDelegate.swift */,
+				1CA6F63A2515EBF6001E874A /* SDBridge */,
+				1CA6F6392515EB9B001E874A /* Categroy */,
+				1CA6F6372515EB09001E874A /* DB */,
+				1CA6F6362515EB00001E874A /* Network */,
+				1CA6F6322515E9FA001E874A /* Login */,
 				1CFC741E24C2D12D00E27B3C /* SceneDelegate.swift */,
+				1CFC741C24C2D12D00E27B3C /* AppDelegate.swift */,
 				1CFC742024C2D12D00E27B3C /* ViewController.swift */,
-				1CFC742224C2D12D00E27B3C /* Main.storyboard */,
+				1CA6F6062515E044001E874A /* Application */,
+				1CA6F6112515E795001E874A /* Community */,
+				1CA6F5FF2515D9D7001E874A /* Home */,
+				1CA6F5D12515918A001E874A /* learning */,
+				1CA6F6012515DA37001E874A /* Message */,
+				1CA6F6002515D9E2001E874A /* Mine */,
 				1CFC742524C2D12E00E27B3C /* Assets.xcassets */,
+				1CFC742224C2D12D00E27B3C /* Main.storyboard */,
 				1CFC742724C2D12E00E27B3C /* LaunchScreen.storyboard */,
 				1CFC742A24C2D12E00E27B3C /* Info.plist */,
 			);
@@ -338,9 +532,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1CA6F60A2515E0A5001E874A /* RootNavigationViewController.swift in Sources */,
 				1CA6F5CD2515917A001E874A /* TestAViewController.swift in Sources */,
+				1CA6F6292515E8D9001E874A /* MineViewController.swift in Sources */,
+				1CA6F6242515E8B2001E874A /* MessageViewController.swift in Sources */,
+				1CA6F6092515E0A5001E874A /* RootTabBarController.swift in Sources */,
 				1CFC742124C2D12D00E27B3C /* ViewController.swift in Sources */,
 				1CFC741D24C2D12D00E27B3C /* AppDelegate.swift in Sources */,
+				1CA6F61C2515E871001E874A /* HomeViewController.swift in Sources */,
+				1CA6F62E2515E95E001E874A /* CommunityViewController.swift in Sources */,
 				1CFC741F24C2D12D00E27B3C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

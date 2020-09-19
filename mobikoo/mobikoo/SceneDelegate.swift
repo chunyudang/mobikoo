@@ -22,10 +22,9 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         if let windowScene = scene as? UIWindowScene {
             
             let window = UIWindow(windowScene: windowScene)
-            let timeline = ViewController()
-            
-            let navigation = UINavigationController(rootViewController: timeline)
-            window.rootViewController = navigation
+            //let timeline = ViewController()
+            //let navigation = UINavigationController(rootViewController: timeline)
+            window.rootViewController = RootTabBarController()
             
             self.window = window
             window.makeKeyAndVisible()
